@@ -1,9 +1,27 @@
 <template>
-  <h3>Alle Nutzer:</h3>
+  <h3>Alle Verbindungen:</h3>
 </template>
 <script>
-  export default {
+/*import axios in script tag of component where data is shown*/
+  import axios from 'axios';
+  export default 
+  {
     name: 'Users',
+    data() 
+    {
+      return 
+      {
+        users: null // should do the trick
+      };
+    },
+    created: function() 
+    {
+      axios
+        .get('https://jsonplaceholder.typicode.com/users')
+        .then(res => {
+          this.users = res.data;
+        })
+    }
   }
 </script>
 <style>
