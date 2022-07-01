@@ -1,24 +1,8 @@
 # mahlzeit-personen
 
-## Project setup
-```
-npm install
-```
+1. Set up project with
+https://www.freecodecamp.org/news/how-to-build-a-single-page-application-using-vue-js-vuex-vuetify-and-firebase-838b40721a07/
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+2. plan different database?
+[Y/N]
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
