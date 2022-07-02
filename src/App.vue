@@ -1,5 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <img alt="Vue logo" src="./assets/logo.png" width="35" />
   <div id="app">
     <Users />
   </div>
@@ -7,7 +7,7 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
-import Users from "./components/Nutzer.vue";
+import Users from "./components/Users.vue";
 export default {
   name: "App",
   components: {
